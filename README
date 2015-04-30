@@ -1,0 +1,32 @@
+1. Run the code
+
+	To run from source code:
+	make clean; make
+	./vCache
+
+	To run the pre-built binary: 
+	./vCache_prebuilt
+
+
+2. Usage
+		Test file:		ASCII_sample (100 lines) or ASCII_many. (51200 lines)
+		# of caches:    1-3
+		Write Policy:   0 for write back, 1 for write through
+		Word size:      should be power of 2, in bytes
+		Block size:     should be power of 2, in words
+		#of blocks:     must be power of 2
+		Associativity:  must be power of 2
+
+
+3. File includes
+		main.cc			c++ code of main file
+		Makefile		makefile
+		ASCII_sample	ASCII sample test file
+		ASCII_many		extended ASCII test file
+		vCache_prebuilt	pre-built binary file
+		Report.pdf		report and experiment results
+		README			this file	
+
+4. Contact
+		czhang24@utk.edu
+
